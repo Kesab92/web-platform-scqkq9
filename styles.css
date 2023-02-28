@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Arial, Segoe UI,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  color: black;
+  background-color: white;
+}
+.s-Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-Header__button {
+  background-color: #dbdbdb;
+  border: none;
+  border-radius: 4px;
+  color: #555;
+}
+.s-Content {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  background-color: #e4effb;
+  border-bottom: 1px solid #dbdbdb;
+}
+.s-Content__image {
+  max-width: 100%;
+}
+.s-Content__heading {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.s-Icon {
+  height: 10px;
+  width: 10px;
+  margin-right: 4px;
+  text-align: center;
+}
+.s-Category {
+  color: #2867db;
+  font-size: 0.75rem;
+}
+.s-Percentage {
+  color: #0a7b44;
+  font-size: 0.75rem;
+}
+.s-Date {
+  color: #757575;
+  font-size: 0.75rem;
+}
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
